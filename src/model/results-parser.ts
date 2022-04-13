@@ -31,7 +31,7 @@ const ResultsParser = {
     runMeta.skipped = Number(run._attributes.skipped);
     runMeta.passed = Number(run._attributes.passed);
     runMeta.duration = Number(run._attributes.duration);
-    runMeta.addTests(tests);
+    //runMeta.addTests(tests);
 
     return runMeta;
   },
